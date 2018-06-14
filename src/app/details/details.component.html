@@ -1,0 +1,15 @@
+<h1>User Details</h1>
+
+<ul>
+  <li>
+      <a>{{ user$.name }}</a> @{{ user$.username }}
+
+      <ul>
+        <li>{{ user$.email }}</li>
+        <li>{{ user$.phone }}</li>
+        <li>
+          <a href="http://{{ user$.website }}" target="_blank"> {{ user$.website }}</a>
+        </li>
+      </ul>
+  </li>
+</ul>
